@@ -2,7 +2,7 @@ import * as React from 'react';
 import NavigationTestUtils from 'react-navigation/NavigationTestUtils';
 import renderer from 'react-test-renderer';
 
-import App from '../App';
+import App from '../src/App';
 
 jest.mock('expo', () => ({
   AppLoading: 'AppLoading',
